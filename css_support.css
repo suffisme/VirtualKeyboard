@@ -1,4 +1,118 @@
+
+.KEYBOARD {
+  margin : auto;
+}
+
 tr,td{
+    padding:4px;
+}
+td:hover{
+  background-color: rgba(0,0,0,0.7);
+}
+
+td:active{
+  background-color: rgba(30,80,180,0.4);
+}
+
+h1{
+    margin:0px;
+    padding: 0px;
+  margin-left: 240px;
+   font-family: Lucida Handwriting; 
+   font-size: 80px
+}
+
+.main-title
+{
+	/*background-color: rgb(33, 204, 84);
+	*/padding:20px;
+}
+.main-title p
+{
+	 margin-left: 450px;
+   font-family: 'Anton', sans-serif;
+	 font-size: 50px; 
+}
+
+table{
+    border-collapse:collapse;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+
+.main input{
+    font-family:Serif;
+    width:100%;
+    height:100%;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+    background-color:rgba(0,0,0,0);
+}
+
+.dark{
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+}
+img
+{
+  	border: solid;
+	  border-radius: 40px;
+	  margin-top: 10px;
+	  border-width: 3px;
+	  border-color: rgb(125, 138, 133);
+}
+
+@media (max-width:1000px )
+{
+   
+   h1{
+   	margin-left:150px;
+   }
+}
+
+@media (max-width:670px )
+{
+	 h1{
+   	margin-left:50px;
+   }
+}
+
+.output{
+  margin: auto;
+}
+
+.output button{
+  margin-left: 180px;
+  width:10%;
+  font-size: 35px;
+  height: 40px;
+  color:white;
+  border:none;
+  background-color:rgba(0,0,0,0.8);
+}
+
+#output_screen{
+  width:45%;
+  height : 40px;
+  font-size: 35px;
+  color:gray;
+  background-color: rgba(0,0,0,0.2);
+  padding: 5px;
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  justify-content: center;
+  /*overflow: hidden;*/
+  
+  align-items: center;
+}
+/* tr,td{
     padding:4px;
 }
 
@@ -30,3 +144,4 @@ body
     background-color:#181818;
     color:white;
 }
+ */
