@@ -15,11 +15,12 @@ td:active{
 }
 
 h1{
-    margin:0px;
+  margin:0px;
     padding: 0px;
   margin-left: 240px;
    font-family: Lucida Handwriting; 
-   font-size: 80px
+   font-size: 80px;
+   color:rgba(255,255,255,0.8);
 }
 
 .main-title
